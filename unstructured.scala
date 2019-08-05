@@ -1,7 +1,9 @@
+//Place the CSV data file "Transacciones" in the same directory
+
 import java.io._
 import scala.io.Source
 
-object examen_1 {
+object unstructured {
   def main(args: Array[String]): Unit = {
     case class Sale(date: String, product: String, price: Int, paymentType: String, country: String)
 
